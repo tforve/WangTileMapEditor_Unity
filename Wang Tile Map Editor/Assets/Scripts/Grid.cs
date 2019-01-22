@@ -19,17 +19,29 @@ public class Grid : MonoBehaviour
         GenerateGrid();
     }
 
+    void Update()
+    {
+        ResetGrid();
+    }
+
     void GenerateGrid()
     {
+
         for (int x = 0; x < size.x; x++)
         {
             for (int y = 0; y < size.y; y++)
             {
                Tile tmp = Instantiate<Tile>(tile, new Vector3(x*tileSize,y*tileSize,0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
+
 //               tiles[x][y] = tmp;
               // Debug.Log(tiles[x]);
             }
         }
+    }
+
+    void ResetGrid()
+    {
+        
     }
 
 }
