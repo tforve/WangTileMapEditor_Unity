@@ -4,19 +4,24 @@ using UnityEngine;
 
 public class Grid : MonoBehaviour
 {
+    // ----- Grid related
     [SerializeField]
-    private Vector2 size;
-    private float tileSize = 32.0f;
+    private Vector2 size;                   // Number of Tiles in X and Y direction. Should be later changeable for user
+    private float tileSize = 32.0f;         // Fix number from Sprite resolution. could be variable and get size from sprite himself maybe
+    private float MAX_X, MAX_Y;             // Max Tiles in height and width depending on screensize and tileSize
 
+    // ----- Tile related
     [SerializeField]
     private Tile tile;
 
-    //Array of Tiles
+    //Array of Tiles for wight
     private Tile[][] tiles;
 
+    //---------------------- Header END ----------------------
+    
     void Start()
     {
-        GenerateGrid();
+       GenerateGrid();
     }
 
     void Update()
@@ -26,22 +31,27 @@ public class Grid : MonoBehaviour
 
     void GenerateGrid()
     {
+        MAX_X = Screen.width / tileSize;
+        MAX_Y = Screen.height / tileSize;
 
-        for (int x = 0; x < size.x; x++)
+        //for Debuging purpose 
+        size.x = MAX_X;
+        size.y = MAX_Y;
+
+        for (int x = 0; x < MAX_X; x++)
         {
-            for (int y = 0; y < size.y; y++)
+            for (int y = 0; y < MAX_Y; y++)
             {
-               Tile tmp = Instantiate<Tile>(tile, new Vector3(x*tileSize,y*tileSize,0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
-
-//               tiles[x][y] = tmp;
-              // Debug.Log(tiles[x]);
+                Tile tmp = Instantiate<Tile>(tile, new Vector3(x * tileSize, y * tileSize, 0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
+                // tiles[x][y] = tmp;
+                // Debug.Log(tiles[x]);
             }
         }
     }
 
     void ResetGrid()
     {
-        
+
     }
 
 }
