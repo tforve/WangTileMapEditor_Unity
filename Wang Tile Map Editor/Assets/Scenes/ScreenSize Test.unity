@@ -794,5 +794,17 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3516553943359972314, guid: 6c532cb6af7c64b46b051c327a97c927,
+        type: 3}
+      propertyPath: indexTile
+      value: 
+      objectReference: {fileID: 85903433770786457, guid: 4bb852e36ce647b4e99bd3d8794b1d69,
+        type: 3}
+    - target: {fileID: 3516553943359972314, guid: 6c532cb6af7c64b46b051c327a97c927,
+        type: 3}
+      propertyPath: tile
+      value: 
+      objectReference: {fileID: 6848009761596317028, guid: c0bd65491e7536642ac131f3047715a2,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c532cb6af7c64b46b051c327a97c927, type: 3}
