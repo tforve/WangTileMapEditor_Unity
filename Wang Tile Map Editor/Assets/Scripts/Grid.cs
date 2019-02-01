@@ -10,7 +10,7 @@ public class Grid : MonoBehaviour
     private int MAX_Tiles_X, MAX_Tiles_Y;                   // amount of Tiles;
     [SerializeField] private Vector2 size;                  // Number of Tiles in X and Y direction. Should be later changeable for user
     private float indexSize = 32.0f;                        // its indexSize = 32;
-    private float tileSize;                                 // Fix number from Sprite resolution indexSize * 2 +1. could be variable and get size from sprite himself maybe
+    private float tileSize = 32.0f;                                 // Fix number from Sprite resolution indexSize * 2 +1. could be variable and get size from sprite himself maybe
 
 
     // ----- Tile related
@@ -44,7 +44,7 @@ public class Grid : MonoBehaviour
 
         //init indexArray[][] and tileArray[][]
         indexArray = new Index[MAX_X, MAX_Y];
-        tileArray = new Tile[MAX_Tiles_X, MAX_Tiles_Y];
+        tileArray = new Tile[MAX_X, MAX_Y];
 
         //for Debuging purpose only right now
         size.x = MAX_X;
@@ -52,16 +52,16 @@ public class Grid : MonoBehaviour
 
 
         //Forloop to instantiate Tiles
-          for (int x = 0; x < 1; x++)
+          for (int x = 0; x < MAX_X; x++)
         {
-            for (int y = 0; y < 1; y++)
+            for (int y = 0; y < MAX_Y; y++)
             {
                 //Index
-                Tile tileTmp = Instantiate<Tile>(tile, new Vector3(x * (indexSize*2) +1, y * (indexSize*2)+1, 0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
+                Tile tileTmp = Instantiate<Tile>(tile, new Vector3(x * tileSize, y * tileSize, 0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
                 tileArray[x, y] = tileTmp;
             }
         }
-        
+        /*
         //Forloop to instantiate Index
         for (int x = 0; x < MAX_X; x++)
         {
@@ -72,6 +72,7 @@ public class Grid : MonoBehaviour
                 indexArray[x, y] = indexTmp;
             }
         }
+         */
 
       
     }
