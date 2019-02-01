@@ -8,11 +8,33 @@ using UnityEngine.EventSystems;
 public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     private Image image;
+    private int index;
+    private Text text;
 
     public Image MyImage
     {
         get { return image; }
         set { image = value; }
+    }
+
+    //get Index of Tile and Change it to new one to set Tile Image
+    public int MyIndex
+    {
+        get { return index; }
+        set { index = value; }
+    }
+
+    void Awake()
+    {
+        text = GetComponentInChildren<Text>();
+        RandomIndex();
+    }
+
+    void RandomIndex()
+    {
+        int rndNumber = Random.Range(0, 2);
+        index = rndNumber;
+        text.text = "" + rndNumber;
     }
 
     public void OnPointerClick(PointerEventData eventData)
