@@ -5,8 +5,11 @@ using UnityEngine.UI;
 
 public class WangLogic : MonoBehaviour
 {
+
+
+
     [SerializeField] private Grid grid;
-    [SerializeField] private Dictionary<int, Sprite> tileImages;
+    public Dictionary<int, Sprite> tileImages;
     [SerializeField] private Sprite[] sprites;
 
     // public Sprite img0, img1, img04, img05, img07, img16, img17, img20, img21, img23, img28, img29;
@@ -14,21 +17,25 @@ public class WangLogic : MonoBehaviour
     // public Sprite img93, img95, img112, img113, img116, img117, img119, img124, img125, img127;
     // public Sprite img193, img197, img199, img209, img213, img215, img221, img223, img241, img245, img247, img253, img255;
 
+    //---------------------- Header END ----------------------
+
+
     void Start()
     {
         tileImages = new Dictionary<int, Sprite>();
 
         InitializeDictionary();
 
-        
+
         // Debug.Log("" + tileImages[64]);
         //Debug.Log(grid.MyTileArray(0, 0).MyIndex);
     }
 
-    //Methode called by Clicking Tile
-    public void SetTileImage(Tile tile)
-    {
 
+    //Get Sprite via Index
+    public Sprite GetSprite(int index)
+    {
+        return tileImages[index];
     }
 
     ///<summary> adding Sprites to Dictionary with Haskey </summary>
