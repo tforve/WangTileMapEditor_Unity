@@ -112,6 +112,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &37982155
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 37982156}
+  - component: {fileID: 37982157}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &37982156
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37982155}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &37982157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37982155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f20a1d2b6d614984993d73da21e28b98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 1325918864}
 --- !u!1 &185602561
 GameObject:
   m_ObjectHideFlags: 0
@@ -184,6 +228,18 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 988171092801576649}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1325918864 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3516553943359972314, guid: 6c532cb6af7c64b46b051c327a97c927,
+    type: 3}
+  m_PrefabInstance: {fileID: 3516553944267761867}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad0116ddd1664847a4ca556ee75c5ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1525435152 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3516553943359972315, guid: 6c532cb6af7c64b46b051c327a97c927,
@@ -760,6 +816,12 @@ PrefabInstance:
       propertyPath: m_SizeDelta.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2534065766359019581, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 8b866ab002f97864abd406b4594a25e1,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da595020c130c054bb395bff8729dd88, type: 3}
 --- !u!1001 &3516553944267761867

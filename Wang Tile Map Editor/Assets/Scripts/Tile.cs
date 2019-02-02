@@ -10,6 +10,7 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     private Image image;
     private int index;
     private Text text;
+    private Grid grid;
 
     public Image MyImage
     {
@@ -27,6 +28,8 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     void Awake()
     {
         text = GetComponentInChildren<Text>();
+        grid = GetComponentInParent<Grid>();
+        index = 0;
         RandomIndex();
     }
 
@@ -34,14 +37,14 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         int rndNumber = Random.Range(0, 2);
         index = rndNumber;
-        text.text = "" + rndNumber;
+        text.text = "";// + rndNumber;
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
         //place Tile by setting new Image
         //check correct Wang
-        Debug.Log("Clicked");
+        //gibt sich selbst an WangLogic zurück???
     }
 
     public void OnPointerEnter(PointerEventData eventData)

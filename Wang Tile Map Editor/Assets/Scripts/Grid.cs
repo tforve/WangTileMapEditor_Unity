@@ -11,29 +11,21 @@ public class Grid : MonoBehaviour
     [SerializeField] private Vector2 size;                  // Number of Tiles in X and Y direction. Should be later changeable for user
     private float tileSize = 32.0f;                         // Fix number from Sprite resolution indexSize * 2 +1. could be variable and get size from sprite himself maybe
 
-
     // ----- Tile related
     [SerializeField]
     private Tile tile;
-
 
     //Array of Tiles for weight
     private Tile[,] tileArray;
 
     //---------------------- Header END ----------------------
 
+
+
     void Start()
     {
         rt = this.GetComponent<RectTransform>();
         GenerateGrid();
-    }
-
-    void Update()
-    {
-        foreach (Tile tile in tileArray)
-        {
-
-        }
     }
 
     ///<summary> Initialze the Grid with the correct width and height </summary>
@@ -63,13 +55,10 @@ public class Grid : MonoBehaviour
         }
     }
 
-    void SetTileImage()
+    public Tile MyTileArray(int x, int y)
     {
-        //go through every Tile in tileArray
-
-        // check neightbour index
+        return tileArray[x, y];
     }
-
     ///<summary> Reset Grid if you want to restart Level OR make new one etc </summary>
     void ResetGrid()
     {
