@@ -28,55 +28,57 @@ public class WangLogic : MonoBehaviour
         InitializeDictionary();
         // Debug.Log("" + tileImages[64]);
     }
+    bool firstClick = true;
 
     public Sprite CalculateIndex(Tile tile, int index)
     {
-        sum = 0;
-        // Checking all Neightbor Index if not 0 calculate new Weight in sum
-        if (grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)
+        if (!firstClick)
         {
-            sum += (1 % 255);
+            sum = 0;
+            // Checking all Neightbor Index if not 0 calculate new Weight in sum
+            if (grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)
+            {
+                sum += 1;
+            }
+            if (grid.MyTileArray(tile.xPos + 1, tile.yPos + 1).MyIndex != 0)
+            {
+                sum += 2;
+            }
+            if (grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0)
+            {
+                sum += 4;
+            }
+            if (grid.MyTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)
+            {
+                sum += 8;
+            }
+            if (grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0)
+            {
+                sum += 16;
+            }
+            if (grid.MyTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)
+            {
+                sum += 32;
+            }
+            if (grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)
+            {
+                sum += 64;
+            }
+            if (grid.MyTileArray(tile.xPos - 1, tile.yPos + 1).MyIndex != 0)
+            {
+                sum += 128;
+            }
+            sum = sum % 255;
             tile.MyIndex = sum;
         }
-        if (grid.MyTileArray(tile.xPos + 1, tile.yPos + 1).MyIndex != 0)
+        else
         {
-            sum += (2 % 255);
-            tile.MyIndex = sum;
-        }
-        if (grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0)
-        {
-            sum += (4 % 255);
-            tile.MyIndex = sum;
-        }
-        if (grid.MyTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)
-        {
-            sum += (8 % 255);
-            tile.MyIndex = sum;
-        }
-        if (grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0)
-        {
-            sum += (16 % 255);
-            tile.MyIndex = sum;
-        }
-        if (grid.MyTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)
-        {
-            sum += (32 % 255);
-            tile.MyIndex = sum;
-        }
-        if (grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)
-        {
-            sum += (64 % 255);
-            tile.MyIndex = sum;
-        }
-        if (grid.MyTileArray(tile.xPos - 1, tile.yPos + 1).MyIndex != 0)
-        {
-            sum += (128 % 255);
-            tile.MyIndex = sum;
-        }
+            firstClick = false;
+            if (sum == 0)
+            {
+                sum = 255;
 
-        if(sum == 0)
-        {
-            sum = 255;
+            }
             tile.MyIndex = sum;
         }
         Debug.Log(sum);
