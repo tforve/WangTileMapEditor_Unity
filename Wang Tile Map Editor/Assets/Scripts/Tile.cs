@@ -7,13 +7,13 @@ using UnityEngine.EventSystems;
 
 public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
-
     private Image image;
     private int index;
+    public int xPos, yPos;
 
     private Text text;
     private Grid grid;
-    [SerializeField]private WangLogic wangLogic;
+    [SerializeField] private WangLogic wangLogic;
 
     public Image MyImage
     {
@@ -30,10 +30,12 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
 
 
     //Constructor
-    public Tile (Image image, int index)
+    public Tile(Image image, int index, int x, int y)
     {
         image = this.image;
         index = this.index;
+       // x = this.xPos;
+        //y = this.yPos;
     }
 
     void Awake()
@@ -50,13 +52,19 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         int rndNumber = Random.Range(0, 2);
         index = rndNumber;
-        text.text = "";// + rndNumber;
+        text.text = "" + rndNumber;// + rndNumber;
     }
+
 
     public void OnPointerClick(PointerEventData eventData)
     {
+
+        // has to give X,Y pos and Weight 
+        wangLogic.CalculateIndex(this, index);
+
         //place Tile by setting new Image
-        image.sprite = wangLogic.GetSprite(64);
+        image.sprite = wangLogic.GetSprite(MyIndex);
+
         //check correct Wang
         //gibt sich selbst an WangLogic zurück???
     }

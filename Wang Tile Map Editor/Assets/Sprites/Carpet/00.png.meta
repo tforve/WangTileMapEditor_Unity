@@ -51,8 +51,8 @@ TextureImporter:
     21300092: wangbl_46
     21300094: wangbl_47
     21300096: wangbl_48
-    21300098: 00
-    21300100: 04
+    21300098: 0
+    21300100: 4
     21300102: 92
     21300104: 124
     21300106: 116
@@ -86,7 +86,7 @@ TextureImporter:
     21300162: 255
     21300164: 245
     21300166: 81
-    21300168: 05
+    21300168: 5
     21300170: 84
     21300172: 93
     21300174: 119
@@ -94,8 +94,8 @@ TextureImporter:
     21300178: 193
     21300180: 17
     21300182: 00_42
-    21300184: 01
-    21300186: 07
+    21300184: 1
+    21300186: 7
     21300188: 197
     21300190: 69
     21300192: 68
@@ -182,7 +182,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 00
+      name: 0
       rect:
         serializedVersion: 2
         x: 0
@@ -202,7 +202,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 04
+      name: 4
       rect:
         serializedVersion: 2
         x: 32
@@ -862,7 +862,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 05
+      name: 5
       rect:
         serializedVersion: 2
         x: 0
@@ -1002,7 +1002,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 01
+      name: 1
       rect:
         serializedVersion: 2
         x: 32
@@ -1022,7 +1022,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 07
+      name: 7
       rect:
         serializedVersion: 2
         x: 64

@@ -5,12 +5,13 @@ using UnityEngine.UI;
 
 public class WangLogic : MonoBehaviour
 {
-
-
-
     [SerializeField] private Grid grid;
-    public Dictionary<int, Sprite> tileImages;
-    [SerializeField] private Sprite[] sprites;
+    [SerializeField] private Sprite[] sprites;                  // for setting Sprites in UnityEidtor
+    public Dictionary<int, Sprite> tileImages;                  // Dictionary of all possible TileSprites with correct HashKey
+
+    private int sum = 0;
+
+
 
     // public Sprite img0, img1, img04, img05, img07, img16, img17, img20, img21, img23, img28, img29;
     // public Sprite img31, img64, img65, img68, img69, img71, img80, img81, img84, img85, img87, img92;
@@ -25,10 +26,66 @@ public class WangLogic : MonoBehaviour
         tileImages = new Dictionary<int, Sprite>();
 
         InitializeDictionary();
-
-
         // Debug.Log("" + tileImages[64]);
-        //Debug.Log(grid.MyTileArray(0, 0).MyIndex);
+    }
+
+    public Sprite CalculateIndex(Tile tile, int index)
+    {
+        sum = 0;
+        // Checking all Neightbor Index if not 0 calculate new Weight in sum
+        if (grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)
+        {
+            sum += (1 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos + 1, tile.yPos + 1).MyIndex != 0)
+        {
+            sum += (2 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0)
+        {
+            sum += (4 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)
+        {
+            sum += (8 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0)
+        {
+            sum += (16 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)
+        {
+            sum += (32 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)
+        {
+            sum += (64 % 255);
+            tile.MyIndex = sum;
+        }
+        if (grid.MyTileArray(tile.xPos - 1, tile.yPos + 1).MyIndex != 0)
+        {
+            sum += (128 % 255);
+            tile.MyIndex = sum;
+        }
+
+        if(sum == 0)
+        {
+            sum = 255;
+            tile.MyIndex = sum;
+        }
+        Debug.Log(sum);
+
+        return tileImages[sum];
+        // if all neightbours are 0, set value to WangLogic().Index;
+
+        // Neightbours != 0 calculate new Weight
+
     }
 
 
@@ -88,6 +145,5 @@ public class WangLogic : MonoBehaviour
         tileImages.Add(247, sprites[44]);
         tileImages.Add(253, sprites[45]);
         tileImages.Add(255, sprites[46]);
-
     }
 }

@@ -20,8 +20,6 @@ public class Grid : MonoBehaviour
 
     //---------------------- Header END ----------------------
 
-
-
     void Start()
     {
         rt = this.GetComponent<RectTransform>();
@@ -50,6 +48,8 @@ public class Grid : MonoBehaviour
             {
                 //Index
                 Tile tileTmp = Instantiate<Tile>(tile, new Vector3(x * tileSize, y * tileSize, 0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
+                tileTmp.xPos = x;
+                tileTmp.yPos = y;
                 tileArray[x, y] = tileTmp;
             }
         }
@@ -59,6 +59,8 @@ public class Grid : MonoBehaviour
     {
         return tileArray[x, y];
     }
+
+
     ///<summary> Reset Grid if you want to restart Level OR make new one etc </summary>
     void ResetGrid()
     {
