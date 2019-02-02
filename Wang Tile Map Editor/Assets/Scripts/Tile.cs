@@ -7,8 +7,10 @@ using UnityEngine.EventSystems;
 
 public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
+
     private Image image;
     private int index;
+
     private Text text;
     private Grid grid;
 
@@ -23,6 +25,13 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         get { return index; }
         set { index = value; }
+    }
+
+    public Tile (Image image, int index)
+    {
+        image = this.image;
+        index = this.index;
+
     }
 
     void Awake()
