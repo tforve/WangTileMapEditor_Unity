@@ -9,7 +9,7 @@ public class Grid : MonoBehaviour
     private int MAX_X, MAX_Y;                               // Max index in height and width (its twice+1 Tiles) depending on screensize and tileSize.
 
     [SerializeField] private Vector2 size;                  // Number of Tiles in X and Y direction. Should be later changeable for user
-    private float tileSize = 32.0f;                         // Fix number from Sprite resolution indexSize * 2 +1. could be variable and get size from sprite himself maybe
+    private float tileSize = 64.0f;                         // Fix number from Sprite resolution indexSize * 2 +1. could be variable and get size from sprite himself maybe
 
     // ----- Tile related
     [SerializeField]
