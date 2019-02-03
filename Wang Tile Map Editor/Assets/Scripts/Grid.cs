@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Grid : MonoBehaviour
 {
@@ -58,6 +59,28 @@ public class Grid : MonoBehaviour
     public Tile MyTileArray(int x, int y)
     {
         return tileArray[x, y];
+    }
+
+    public void ShowOrHideIndex()
+    {
+        // for (var i = 0; i < tileArray.GetLength(0); i++)
+        // {
+        //     for (var j = 0; j < tileArray.GetLength(1); j++)
+        //     {
+        //         Text tmp = GetComponentInChildren<Text>();
+        //         tmp.enabled = true;
+        //         tmp.text = "asdas";
+        //         //tmp.SetActive(true);
+        //         //tmp.enabled = tmp.enabled == false ? true : false;
+        //     }
+        // }
+
+        foreach (Tile tile in tileArray)
+        {
+            Text tmp = GetComponentInChildren<Text>();
+            tmp.enabled = true;
+        }
+
     }
 
 

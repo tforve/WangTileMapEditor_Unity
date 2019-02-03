@@ -7,16 +7,11 @@ public class WangLogic : MonoBehaviour
 {
     [SerializeField] private Grid grid;
     [SerializeField] private Sprite[] sprites;                  // for setting Sprites in UnityEidtor
+    private int savedIndex;                                     // index of Tile on firstClick
     public Dictionary<int, Sprite> tileImages;                  // Dictionary of all possible TileSprites with correct HashKey
 
+    private bool firstClick = true;
     private int sum = 0;
-
-
-
-    // public Sprite img0, img1, img04, img05, img07, img16, img17, img20, img21, img23, img28, img29;
-    // public Sprite img31, img64, img65, img68, img69, img71, img80, img81, img84, img85, img87, img92;
-    // public Sprite img93, img95, img112, img113, img116, img117, img119, img124, img125, img127;
-    // public Sprite img193, img197, img199, img209, img213, img215, img221, img223, img241, img245, img247, img253, img255;
 
     //---------------------- Header END ----------------------
 
@@ -24,70 +19,84 @@ public class WangLogic : MonoBehaviour
     void Start()
     {
         tileImages = new Dictionary<int, Sprite>();
-
         InitializeDictionary();
-        // Debug.Log("" + tileImages[64]);
     }
-    bool firstClick = true;
+
+    public void SaveIndex(int value)
+    {
+        savedIndex = value;
+        firstClick = true;
+    }
 
     public Sprite CalculateIndex(Tile tile, int index)
     {
         if (!firstClick)
         {
             sum = 0;
-            // Checking all Neightbor Index if not 0 calculate new Weight in sum
-            if (grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)
+
+            // Checking all direct Neightbor Index if not 0 calculate new Weight in sum and know on wich side it has to be open
+            if (grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)             //NORTH
             {
                 sum += 1;
             }
-            if (grid.MyTileArray(tile.xPos + 1, tile.yPos + 1).MyIndex != 0)
-            {
-                sum += 2;
-            }
-            if (grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0)
+            if (grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0)             //EAST
             {
                 sum += 4;
             }
-            if (grid.MyTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)
-            {
-                sum += 8;
-            }
-            if (grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0)
+            if (grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0)            //SOUTH
             {
                 sum += 16;
             }
-            if (grid.MyTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)
-            {
-                sum += 32;
-            }
-            if (grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)
+            if (grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)            //WEST
             {
                 sum += 64;
             }
-            if (grid.MyTileArray(tile.xPos - 1, tile.yPos + 1).MyIndex != 0)
+
+
+            // checking all diagonal Neightbors 
+            if (grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0 && grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0) //NE
             {
-                sum += 128;
+                if (grid.MyTileArray(tile.xPos + 1, tile.yPos + 1).MyIndex != 0)
+                {
+                    sum += 2;
+                }
             }
-            sum = sum % 255;
+
+            if (grid.MyTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0 && grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0) //SE
+            {
+                if (grid.MyTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)        //SE
+                {
+                    sum += 8;
+                }
+            }
+
+            if (grid.MyTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0 && grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)  //SW
+            {
+                if (grid.MyTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)        //SW
+                {
+                    sum += 32;
+                }
+            }
+
+            if (grid.MyTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0 && grid.MyTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)  //NW
+            {
+                if (grid.MyTileArray(tile.xPos - 1, tile.yPos + 1).MyIndex != 0)        //NW
+                {
+                    sum += 128;
+                }
+            }
+
+            if (sum > 255) { sum %= 255; }
             tile.MyIndex = sum;
         }
-        else //choose Tile first Methode
+
+        else //choose first Tile
         {
             firstClick = false;
-            if (sum == 0)
-            {
-                sum = 255;
-
-            }
+            sum = savedIndex;
             tile.MyIndex = sum;
         }
-        Debug.Log(sum);
-
         return tileImages[sum];
-        // if all neightbours are 0, set value to WangLogic().Index;
-
-        // Neightbours != 0 calculate new Weight
-
     }
 
 

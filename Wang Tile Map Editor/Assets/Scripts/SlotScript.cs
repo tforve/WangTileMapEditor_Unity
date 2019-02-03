@@ -5,28 +5,26 @@ using UnityEngine.UI;
 
 public class SlotScript : MonoBehaviour
 {
+    private WangLogic wangLogic;
 
     private Outline outline;
-    private Tile tile;              // get Tile so i can get the Image of it
-
-    public Tile MyTile
-    {
-        get {return tile;}
-    }
-
+    [SerializeField] private int index;
 
     // Start is called before the first frame update
     void Start()
     {
         outline = GetComponent<Outline>();
+        wangLogic = FindObjectOfType<WangLogic>();
+    }
+
+    public void SaveIndex()
+    {
+        wangLogic.SaveIndex(index);
     }
 
     // mark Image beneathe mouse
     public void SelectTile()
     {
         outline.enabled = outline.enabled == false ? true : false;
-
-        // have to get the Tile 
-
     }
 }
