@@ -40,14 +40,11 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     public void OnPointerClick(PointerEventData eventData)
     {
         // has to give X,Y pos and Weight 
-        wangLogic.CalculateIndex(this, index);
+        wangLogic.CalculateIndex(this);
 
         //place Tile by setting new Image
         image.sprite = wangLogic.GetSprite(MyIndex);
-
         text.text = "" + index;
-
-        //check correct Wang
     }
 
     public void OnPointerEnter(PointerEventData eventData)

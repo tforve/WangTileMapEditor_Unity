@@ -56,10 +56,19 @@ public class Grid : MonoBehaviour
         }
     }
 
-    public Tile MyTileArray(int x, int y)
+    public Tile GetTileArray(int x, int y)
     {
         return tileArray[x, y];
     }
+    // //Get Length of Array
+    // public int GetXOfArray()
+    // {
+    //     return tileArray.GetLength(0);
+    // }
+    // public int GetYOfArray()
+    // {
+    //     return tileArray.GetLength(1);
+    // }
 
     public void ShowOrHideIndex()
     {
