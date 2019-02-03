@@ -33,42 +33,6 @@ public class WangLogic : MonoBehaviour
         if (!firstClick)
         {
             sum = 0;
-            Debug.Log(tile.xPos + " / " + tile.yPos);
-
-            /*
-            if (tile.yPos > 17)
-            {
-                if (grid.GetTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0)             //EAST
-                {
-                    sum += 4;
-                }
-                if (grid.GetTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0)            //SOUTH
-                {
-                    sum += 16;
-                }
-                if (grid.GetTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)            //WEST
-                {
-                    sum += 64;
-                }
-
-                if (grid.GetTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0 && grid.GetTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0) //SE
-                {
-                    if (grid.GetTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)        //SE
-                    {
-                        sum += 8;
-                    }
-                }
-                if (grid.GetTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0 && grid.GetTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)  //SW
-                {
-                    if (grid.GetTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)        //SW
-                    {
-                        sum += 32;
-                    }
-                }
-
-            }
-            
-             */
 
             // Checking all direct Neightbor Index if not 0 calculate new Weight in sum and know on wich side it has to be open
             if (grid.GetTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)             //NORTH
@@ -133,8 +97,7 @@ public class WangLogic : MonoBehaviour
         return tileImages[sum];
     }
 
-
-    //Get Sprite via Index
+    ///<summary> Get Sprite via Index </summary>
     public Sprite GetSprite(int index)
     {
         return tileImages[index];
