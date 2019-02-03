@@ -15,6 +15,8 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     private Grid grid;
     [SerializeField] private WangLogic wangLogic;
 
+    //---------------------- Header END ----------------------
+
     //get Index of Tile and Change it to new one to set Tile Image
     public int MyIndex
     {
@@ -22,13 +24,8 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         set { index = value; }
     }
 
-    //Constructor
-    public Tile(Image image, int index, int x, int y)
-    {
-        image = this.image;
-        index = this.index;
-    }
-
+    //---------------------- Properties END -------------------
+    
     void Awake()
     {
         image = GetComponent<Image>();
@@ -39,12 +36,13 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
 
     public void OnPointerClick(PointerEventData eventData)
     {
-        // has to give X,Y pos and Weight 
         wangLogic.CalculateIndex(this);
 
         //place Tile by setting new Image
         image.sprite = wangLogic.GetSprite(MyIndex);
         text.text = "" + index;
+
+        //Update all neightbours of Tile 
     }
 
     public void OnPointerEnter(PointerEventData eventData)

@@ -41,17 +41,18 @@ public class Grid : MonoBehaviour
         size.x = MAX_X;
         size.y = MAX_Y;
 
+        Vector3 offset = new Vector3(tileSize,tileSize,0.0f);
 
         //Forloop to instantiate Tiles
         for (int x = 0; x < MAX_X; x++)
         {
             for (int y = 0; y < MAX_Y; y++)
             {
-                //Index
                 Tile tileTmp = Instantiate<Tile>(tile, new Vector3(x * tileSize, y * tileSize, 0), Quaternion.identity, GameObject.FindGameObjectWithTag("Canvas").transform);
                 tileTmp.xPos = x;
                 tileTmp.yPos = y;
                 tileArray[x, y] = tileTmp;
+                tileTmp.transform.position -= offset;
             }
         }
     }
@@ -60,15 +61,6 @@ public class Grid : MonoBehaviour
     {
         return tileArray[x, y];
     }
-    // //Get Length of Array
-    // public int GetXOfArray()
-    // {
-    //     return tileArray.GetLength(0);
-    // }
-    // public int GetYOfArray()
-    // {
-    //     return tileArray.GetLength(1);
-    // }
 
     public void ShowOrHideIndex()
     {
@@ -92,11 +84,14 @@ public class Grid : MonoBehaviour
 
     }
 
-
     ///<summary> Reset Grid if you want to restart Level OR make new one etc </summary>
-    void ResetGrid()
+    public void ResetGrid()
     {
-
+        foreach (Tile tile in tileArray)
+        {
+            Destroy(tile);
+        }
+        GenerateGrid();
     }
 
 }

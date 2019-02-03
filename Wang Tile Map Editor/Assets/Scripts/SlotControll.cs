@@ -24,7 +24,7 @@ public class SlotControll : MonoBehaviour
     {
         if(childCnt > 40)
         {
-            gridLayoutGrp.cellSize = new Vector2(32.0f,32.0f);
+            gridLayoutGrp.cellSize = new Vector2(42.0f,42.0f);
         }
     }
 }
