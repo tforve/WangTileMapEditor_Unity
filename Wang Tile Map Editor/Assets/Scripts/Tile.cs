@@ -8,32 +8,56 @@ using UnityEngine.EventSystems;
 public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
 {
     private Image image;
+    [SerializeField] private int index;
+    [HideInInspector] public int xPos, yPos;
 
-    public Image MyImage
+    private Text text;
+    private Grid grid;
+    [SerializeField] private WangLogic wangLogic;
+
+    //get Index of Tile and Change it to new one to set Tile Image
+    public int MyIndex
     {
-        get { return image; }
-        set { image = value; }
+        get { return index; }
+        set { index = value; }
+    }
+
+    //Constructor
+    public Tile(Image image, int index, int x, int y)
+    {
+        image = this.image;
+        index = this.index;
+    }
+
+    void Awake()
+    {
+        image = GetComponent<Image>();
+        text = GetComponentInChildren<Text>();
+        grid = GetComponentInParent<Grid>();
+        wangLogic = FindObjectOfType<WangLogic>();
     }
 
     public void OnPointerClick(PointerEventData eventData)
     {
+        // has to give X,Y pos and Weight 
+        wangLogic.CalculateIndex(this);
+
         //place Tile by setting new Image
-        //check correct Wang
-        Debug.Log("Clicked");
+        image.sprite = wangLogic.GetSprite(MyIndex);
+        text.text = "" + index;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        //show tile or just use Button and Highlight Tile
         //Highlight by Change Cholor of image
-        GetComponent<Image>().color = new Color(0.5f, 1.0f, 0.5f, 1.0f);
+        image.color = new Color(0.5f, 1.0f, 0.5f, 1.0f);
 
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         //stop highlighting 
-        GetComponent<Image>().color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        image.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
 
     }
 }
