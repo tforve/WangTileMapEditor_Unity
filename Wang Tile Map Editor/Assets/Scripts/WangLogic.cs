@@ -71,7 +71,7 @@ public class WangLogic : MonoBehaviour
             sum = sum % 255;
             tile.MyIndex = sum;
         }
-        else
+        else //choose Tile first Methode
         {
             firstClick = false;
             if (sum == 0)

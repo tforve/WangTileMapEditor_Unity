@@ -65,8 +65,9 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         //place Tile by setting new Image
         image.sprite = wangLogic.GetSprite(MyIndex);
 
+        text.text = ""+index;
+
         //check correct Wang
-        //gibt sich selbst an WangLogic zurück???
     }
 
     public void OnPointerEnter(PointerEventData eventData)
