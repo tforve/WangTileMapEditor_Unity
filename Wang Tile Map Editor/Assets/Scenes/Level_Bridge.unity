@@ -1954,6 +1954,11 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2301796177040930567, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_Name
+      value: Reset_Btn
+      objectReference: {fileID: 0}
     - target: {fileID: 1599398176594632291, guid: da595020c130c054bb395bff8729dd88,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
@@ -1964,6 +1969,18 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325918864}
+    - target: {fileID: 8519808973495790472, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300002, guid: 8b866ab002f97864abd406b4594a25e1,
+        type: 3}
+    - target: {fileID: 2534065766359019581, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 8b866ab002f97864abd406b4594a25e1,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da595020c130c054bb395bff8729dd88, type: 3}
 --- !u!1001 &3516553944267761867

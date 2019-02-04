@@ -15,7 +15,6 @@ public class Grid : MonoBehaviour
     [SerializeField] private Tile tile;
     private Tile[,] tileArray;                              //Array of Tiles
 
-    private WangLogic wangLogic;
 
 
     //---------------------- Header END ----------------------
@@ -23,7 +22,6 @@ public class Grid : MonoBehaviour
     void Start()
     {
         rt = this.GetComponent<RectTransform>();
-        wangLogic = GetComponent<WangLogic>();
         offset = new Vector3(tileSize,tileSize,0.0f);
         GenerateGrid();
     }
@@ -60,7 +58,7 @@ public class Grid : MonoBehaviour
     {
         return tileArray[x, y];
     }
-    
+
     /// <summary> Activate Index.Text to show Weight of Tile </summary>
     public void ShowOrHideIndex()
     {
@@ -68,12 +66,7 @@ public class Grid : MonoBehaviour
         {
             Text tmp = tile.GetComponentInChildren<Text>();
             tmp.enabled = tmp.enabled == false ? true : false;
-        } 
-    }
-    
-    public void UpdateMap()
-    {
-        
+        }
     }
 
     ///<summary> Reset Grid if you want to restart Level OR make new one etc </summary>

@@ -68,12 +68,12 @@ public class WangLogic : MonoBehaviour
                 if (grid.GetTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)        //SE
                 {
                     sum += 8;
-                }
+   }
             }
 
             if (grid.GetTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0 && grid.GetTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)  //SW
             {
-                if (grid.GetTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)        //SW
+                if (grid.GetTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0) //SW
                 {
                     sum += 32;
                 }
@@ -89,6 +89,8 @@ public class WangLogic : MonoBehaviour
             if (sum > 255) { sum %= 255; }
             tile.MyIndex = sum;
         }
+        
+        
 
         else //choose first Tile
         {
@@ -96,8 +98,10 @@ public class WangLogic : MonoBehaviour
             sum = savedIndex;
             tile.MyIndex = sum;
         }
+        
         return tileImages[sum];
     }
+
 
     /// <summary>
     /// Get Sprite via Index
