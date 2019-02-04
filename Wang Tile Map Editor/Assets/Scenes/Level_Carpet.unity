@@ -552,6 +552,31 @@ PrefabInstance:
       propertyPath: m_isInputParsingRequired
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 479908412602094385, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_text
+      value: MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 479908412602094385, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_textInfo.characterCount
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 479908412602094385, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_textInfo.wordCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 479908412602094385, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_textInfo.lineCount
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 479908412602094385, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_textInfo.pageCount
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7030200000660253855, guid: da595020c130c054bb395bff8729dd88,
         type: 3}
       propertyPath: m_havePropertiesChanged
@@ -1964,6 +1989,16 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1325918864}
+    - target: {fileID: 8799686591874549035, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8799686591874549035, guid: da595020c130c054bb395bff8729dd88,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SaveIndex
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da595020c130c054bb395bff8729dd88, type: 3}
 --- !u!1001 &3516553944267761867

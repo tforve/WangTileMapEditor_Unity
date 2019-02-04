@@ -2,55 +2,55 @@ fileFormatVersion: 2
 guid: 8b866ab002f97864abd406b4594a25e1
 TextureImporter:
   fileIDToRecycleName:
-    21300000: bridge_0
-    21300002: bridge_1
-    21300004: bridge_2
-    21300006: bridge_3
-    21300008: bridge_4
-    21300010: bridge_5
+    21300000: 0
+    21300002: 4
+    21300004: 92
+    21300006: 124
+    21300008: 116
+    21300010: 80
     21300012: bridge_6
-    21300014: bridge_7
-    21300016: bridge_8
-    21300018: bridge_9
-    21300020: bridge_10
-    21300022: bridge_11
-    21300024: bridge_12
-    21300026: bridge_13
-    21300028: bridge_14
-    21300030: bridge_15
-    21300032: bridge_16
-    21300034: bridge_17
-    21300036: bridge_18
-    21300038: bridge_19
-    21300040: bridge_20
-    21300042: bridge_21
-    21300044: bridge_22
-    21300046: bridge_23
-    21300048: bridge_24
-    21300050: bridge_25
-    21300052: bridge_26
-    21300054: bridge_27
-    21300056: bridge_28
-    21300058: bridge_29
-    21300060: bridge_30
-    21300062: bridge_31
-    21300064: bridge_32
-    21300066: bridge_33
-    21300068: bridge_34
-    21300070: bridge_35
-    21300072: bridge_36
-    21300074: bridge_37
-    21300076: bridge_38
-    21300078: bridge_39
-    21300080: bridge_40
-    21300082: bridge_41
+    21300014: 16
+    21300016: 20
+    21300018: 87
+    21300020: 223
+    21300022: 241
+    21300024: 21
+    21300026: 64
+    21300028: 29
+    21300030: 117
+    21300032: 85
+    21300034: 71
+    21300036: 221
+    21300038: 125
+    21300040: 112
+    21300042: 31
+    21300044: 253
+    21300046: 113
+    21300048: 28
+    21300050: 127
+    21300052: 247
+    21300054: 209
+    21300056: 23
+    21300058: 199
+    21300060: 213
+    21300062: 95
+    21300064: 255
+    21300066: 245
+    21300068: 81
+    21300070: 5
+    21300072: 84
+    21300074: 93
+    21300076: 119
+    21300078: 215
+    21300080: 193
+    21300082: 17
     21300084: bridge_42
-    21300086: bridge_43
-    21300088: bridge_44
-    21300090: bridge_45
-    21300092: bridge_46
-    21300094: bridge_47
-    21300096: bridge_48
+    21300086: 1
+    21300088: 7
+    21300090: 197
+    21300092: 69
+    21300094: 68
+    21300096: 65
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -133,7 +133,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: bridge_0
+      name: 0
       rect:
         serializedVersion: 2
         x: 0
@@ -153,7 +153,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_1
+      name: 4
       rect:
         serializedVersion: 2
         x: 32
@@ -173,7 +173,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_2
+      name: 92
       rect:
         serializedVersion: 2
         x: 64
@@ -193,7 +193,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_3
+      name: 124
       rect:
         serializedVersion: 2
         x: 96
@@ -213,7 +213,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_4
+      name: 116
       rect:
         serializedVersion: 2
         x: 128
@@ -233,7 +233,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_5
+      name: 80
       rect:
         serializedVersion: 2
         x: 160
@@ -253,7 +253,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_7
+      name: 16
       rect:
         serializedVersion: 2
         x: 0
@@ -273,7 +273,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_8
+      name: 20
       rect:
         serializedVersion: 2
         x: 32
@@ -293,7 +293,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_9
+      name: 87
       rect:
         serializedVersion: 2
         x: 64
@@ -313,7 +313,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_10
+      name: 223
       rect:
         serializedVersion: 2
         x: 96
@@ -333,7 +333,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_11
+      name: 241
       rect:
         serializedVersion: 2
         x: 128
@@ -353,7 +353,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_12
+      name: 21
       rect:
         serializedVersion: 2
         x: 160
@@ -373,7 +373,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_13
+      name: 64
       rect:
         serializedVersion: 2
         x: 192
@@ -393,7 +393,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_14
+      name: 29
       rect:
         serializedVersion: 2
         x: 0
@@ -413,7 +413,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_15
+      name: 117
       rect:
         serializedVersion: 2
         x: 32
@@ -433,7 +433,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_16
+      name: 85
       rect:
         serializedVersion: 2
         x: 64
@@ -453,7 +453,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_17
+      name: 71
       rect:
         serializedVersion: 2
         x: 96
@@ -473,7 +473,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_18
+      name: 221
       rect:
         serializedVersion: 2
         x: 128
@@ -493,7 +493,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_19
+      name: 125
       rect:
         serializedVersion: 2
         x: 160
@@ -513,7 +513,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_20
+      name: 112
       rect:
         serializedVersion: 2
         x: 192
@@ -533,7 +533,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_21
+      name: 31
       rect:
         serializedVersion: 2
         x: 0
@@ -553,7 +553,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_22
+      name: 253
       rect:
         serializedVersion: 2
         x: 32
@@ -573,7 +573,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_23
+      name: 113
       rect:
         serializedVersion: 2
         x: 64
@@ -593,7 +593,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_24
+      name: 28
       rect:
         serializedVersion: 2
         x: 96
@@ -613,7 +613,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_25
+      name: 127
       rect:
         serializedVersion: 2
         x: 128
@@ -633,7 +633,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_26
+      name: 247
       rect:
         serializedVersion: 2
         x: 160
@@ -653,7 +653,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_27
+      name: 209
       rect:
         serializedVersion: 2
         x: 192
@@ -673,7 +673,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_28
+      name: 23
       rect:
         serializedVersion: 2
         x: 0
@@ -693,7 +693,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_29
+      name: 199
       rect:
         serializedVersion: 2
         x: 32
@@ -713,7 +713,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_30
+      name: 213
       rect:
         serializedVersion: 2
         x: 64
@@ -733,7 +733,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_31
+      name: 95
       rect:
         serializedVersion: 2
         x: 96
@@ -753,7 +753,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_32
+      name: 255
       rect:
         serializedVersion: 2
         x: 128
@@ -773,7 +773,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_33
+      name: 245
       rect:
         serializedVersion: 2
         x: 160
@@ -793,7 +793,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_34
+      name: 81
       rect:
         serializedVersion: 2
         x: 192
@@ -813,7 +813,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_35
+      name: 5
       rect:
         serializedVersion: 2
         x: 0
@@ -833,7 +833,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_36
+      name: 84
       rect:
         serializedVersion: 2
         x: 32
@@ -853,7 +853,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_37
+      name: 93
       rect:
         serializedVersion: 2
         x: 64
@@ -873,7 +873,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_38
+      name: 119
       rect:
         serializedVersion: 2
         x: 96
@@ -893,7 +893,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_39
+      name: 215
       rect:
         serializedVersion: 2
         x: 128
@@ -913,7 +913,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_40
+      name: 193
       rect:
         serializedVersion: 2
         x: 160
@@ -933,7 +933,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_41
+      name: 17
       rect:
         serializedVersion: 2
         x: 192
@@ -953,7 +953,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_43
+      name: 1
       rect:
         serializedVersion: 2
         x: 32
@@ -973,7 +973,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_44
+      name: 7
       rect:
         serializedVersion: 2
         x: 64
@@ -993,7 +993,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_45
+      name: 197
       rect:
         serializedVersion: 2
         x: 96
@@ -1013,7 +1013,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_46
+      name: 69
       rect:
         serializedVersion: 2
         x: 128
@@ -1033,7 +1033,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_47
+      name: 68
       rect:
         serializedVersion: 2
         x: 160
@@ -1053,7 +1053,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: bridge_48
+      name: 65
       rect:
         serializedVersion: 2
         x: 192

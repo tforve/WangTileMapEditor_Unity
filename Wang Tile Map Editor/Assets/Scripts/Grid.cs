@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Grid : MonoBehaviour
 {
@@ -81,7 +82,7 @@ public class Grid : MonoBehaviour
 
     public void CloseApplication()
     {
-        Application.Quit();
+        SceneManager.LoadScene("WangTileMapeditor");
     }
 
 }

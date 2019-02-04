@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WangTileMapeditor.unity
     guid: 26965c88c93728949b1b4afe02129ff5
+  - enabled: 1
+    path: Assets/Scenes/Level_Bridge.unity
+    guid: 28732f7ef7e09714780352170afe23a4
+  - enabled: 1
+    path: Assets/Scenes/Level_Carpet.unity
+    guid: 91242becb73a26448892dba7ecc1fdcf
   m_configObjects: {}
