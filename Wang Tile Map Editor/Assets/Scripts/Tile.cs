@@ -21,13 +21,6 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         get { return index; }
         set { index = value; }
     }
-
-    public Image MyImage
-    {
-        get { return image; }
-        set { image = value; }
-    }
-
     //---------------------- Properties END -------------------
     
     void Awake()
@@ -49,7 +42,7 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         //Update all neightbours of Tile
        // grid.UpdateMap();
     }
-
+    
     public void OnPointerEnter(PointerEventData eventData)
     {
         //Highlight by Change Cholor of image

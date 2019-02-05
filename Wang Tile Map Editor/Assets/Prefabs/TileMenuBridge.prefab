@@ -617,7 +617,6 @@ GameObject:
   - component: {fileID: 4914395269348140957}
   - component: {fileID: 1842054306285479665}
   - component: {fileID: 1761073203439287779}
-  - component: {fileID: 7037918190814101476}
   - component: {fileID: 5035691795928578168}
   m_Layer: 5
   m_Name: Slot (41)
@@ -736,21 +735,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7037918190814101476
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 243823684531452070}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5035691795928578168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -776,7 +760,6 @@ GameObject:
   - component: {fileID: 1481678205170624569}
   - component: {fileID: 8519808973495790472}
   - component: {fileID: 8129453301852898167}
-  - component: {fileID: 5057723265865629030}
   - component: {fileID: 1620779818170390827}
   m_Layer: 5
   m_Name: Slot (1)
@@ -895,21 +878,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5057723265865629030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 272295219001000857}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1620779818170390827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -935,7 +903,6 @@ GameObject:
   - component: {fileID: 6302339152374339599}
   - component: {fileID: 8896145662144573752}
   - component: {fileID: 7678837481373455420}
-  - component: {fileID: 2105212330771045977}
   - component: {fileID: 8047581697035268247}
   m_Layer: 5
   m_Name: Slot (27)
@@ -1054,21 +1021,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2105212330771045977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 331063962263917499}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &8047581697035268247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,7 +1200,6 @@ GameObject:
   - component: {fileID: 6001301517653650}
   - component: {fileID: 2677200626096096855}
   - component: {fileID: 6649493166993109266}
-  - component: {fileID: 1487413461666463124}
   - component: {fileID: 5301607077834520013}
   m_Layer: 5
   m_Name: Slot (2)
@@ -1367,21 +1318,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1487413461666463124
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 551188724134830836}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5301607077834520013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1644,7 +1580,6 @@ GameObject:
   - component: {fileID: 3474750694578103814}
   - component: {fileID: 1934149120360814302}
   - component: {fileID: 7757991570731895263}
-  - component: {fileID: 9103582697689452105}
   - component: {fileID: 3116767653675049708}
   m_Layer: 5
   m_Name: Slot (9)
@@ -1763,21 +1698,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &9103582697689452105
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 981053710085309493}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &3116767653675049708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1803,7 +1723,7 @@ GameObject:
   - component: {fileID: 988171093282643283}
   - component: {fileID: 988171093282643280}
   m_Layer: 5
-  m_Name: TileMenu
+  m_Name: TileMenuBridge
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1882,7 +1802,6 @@ GameObject:
   - component: {fileID: 5662236954748096475}
   - component: {fileID: 906365026271646708}
   - component: {fileID: 2255990397749956661}
-  - component: {fileID: 5646801282479018005}
   - component: {fileID: 5142515708978677676}
   m_Layer: 5
   m_Name: Slot (42)
@@ -2001,21 +1920,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5646801282479018005
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1247622799470748257}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5142515708978677676
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2120,7 +2024,6 @@ GameObject:
   - component: {fileID: 3537738227562715154}
   - component: {fileID: 1089989541790854344}
   - component: {fileID: 7109431176801133363}
-  - component: {fileID: 7250822150711004132}
   - component: {fileID: 8251548792901209776}
   m_Layer: 5
   m_Name: Slot (34)
@@ -2239,21 +2142,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7250822150711004132
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1374722022230039936}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &8251548792901209776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2279,7 +2167,6 @@ GameObject:
   - component: {fileID: 4942480042683449537}
   - component: {fileID: 8734992456544196752}
   - component: {fileID: 385572922733269029}
-  - component: {fileID: 8677011084371702814}
   - component: {fileID: 1129345735437423518}
   m_Layer: 5
   m_Name: Slot (45)
@@ -2398,21 +2285,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8677011084371702814
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1383222918099565449}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1129345735437423518
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2517,7 +2389,6 @@ GameObject:
   - component: {fileID: 4830888932544239912}
   - component: {fileID: 6932053384555092571}
   - component: {fileID: 5436864742907440370}
-  - component: {fileID: 8094659279496363113}
   - component: {fileID: 7163612605459305302}
   m_Layer: 5
   m_Name: Slot (28)
@@ -2636,21 +2507,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8094659279496363113
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431740106101003342}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &7163612605459305302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2676,7 +2532,6 @@ GameObject:
   - component: {fileID: 208754457941256206}
   - component: {fileID: 5759126662426786719}
   - component: {fileID: 2129945293501677586}
-  - component: {fileID: 707344998692838689}
   - component: {fileID: 3565103774014087827}
   m_Layer: 5
   m_Name: Slot (33)
@@ -2795,21 +2650,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &707344998692838689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466863723844381242}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &3565103774014087827
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2914,7 +2754,6 @@ GameObject:
   - component: {fileID: 8311164002373522359}
   - component: {fileID: 2463484729219358530}
   - component: {fileID: 7554822024404703581}
-  - component: {fileID: 220880181725820021}
   - component: {fileID: 5274852159272994845}
   m_Layer: 5
   m_Name: Slot (26)
@@ -3033,21 +2872,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &220880181725820021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624285701008545128}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5274852159272994845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3073,7 +2897,6 @@ GameObject:
   - component: {fileID: 4299583248028642823}
   - component: {fileID: 7202204263767765086}
   - component: {fileID: 1686066499162742769}
-  - component: {fileID: 5131483474445473072}
   - component: {fileID: 7366169232204160834}
   m_Layer: 5
   m_Name: Slot (23)
@@ -3192,21 +3015,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5131483474445473072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1790026764523815463}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &7366169232204160834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3232,7 +3040,6 @@ GameObject:
   - component: {fileID: 7733719605627639833}
   - component: {fileID: 6478976959875592637}
   - component: {fileID: 4575175841013396937}
-  - component: {fileID: 8244773857989581581}
   - component: {fileID: 8000436158853759320}
   m_Layer: 5
   m_Name: Slot (32)
@@ -3351,21 +3158,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8244773857989581581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848730712732594523}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &8000436158853759320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3391,7 +3183,6 @@ GameObject:
   - component: {fileID: 2438849606004168089}
   - component: {fileID: 4896758823276141739}
   - component: {fileID: 4708801706301048219}
-  - component: {fileID: 8683814731509843906}
   - component: {fileID: 5121437812283931370}
   m_Layer: 5
   m_Name: Slot (43)
@@ -3510,21 +3301,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8683814731509843906
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1950183389999437881}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5121437812283931370
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3916,7 +3692,6 @@ GameObject:
   - component: {fileID: 2254866685106162192}
   - component: {fileID: 4071258450648333928}
   - component: {fileID: 4835602515084922279}
-  - component: {fileID: 3654733643658055907}
   - component: {fileID: 4429918135414995823}
   m_Layer: 5
   m_Name: Slot (31)
@@ -4035,21 +3810,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3654733643658055907
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2483409735280539941}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &4429918135414995823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4154,7 +3914,6 @@ GameObject:
   - component: {fileID: 8077867626414717131}
   - component: {fileID: 5588634474690681091}
   - component: {fileID: 4685564996753638785}
-  - component: {fileID: 2936096102222407500}
   - component: {fileID: 4454275544948941684}
   m_Layer: 5
   m_Name: Slot (12)
@@ -4273,21 +4032,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2936096102222407500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2666674045180485983}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &4454275544948941684
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4313,7 +4057,6 @@ GameObject:
   - component: {fileID: 3360473009763383584}
   - component: {fileID: 4898462970164527346}
   - component: {fileID: 8860530117999585717}
-  - component: {fileID: 7556066204271038356}
   - component: {fileID: 1853854972477062021}
   m_Layer: 5
   m_Name: Slot (7)
@@ -4432,21 +4175,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7556066204271038356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2667937178491891662}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1853854972477062021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4601,7 +4329,6 @@ GameObject:
   - component: {fileID: 6969290359860058367}
   - component: {fileID: 2465458226268270730}
   - component: {fileID: 7351512517116934448}
-  - component: {fileID: 3076970690314887670}
   - component: {fileID: 2036131022656155361}
   m_Layer: 5
   m_Name: Slot (22)
@@ -4720,21 +4447,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3076970690314887670
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2941278459828854889}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &2036131022656155361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4918,7 +4630,6 @@ GameObject:
   - component: {fileID: 4352161995279867634}
   - component: {fileID: 268867389691950978}
   - component: {fileID: 8489901849627351942}
-  - component: {fileID: 7976649972208455888}
   - component: {fileID: 6894222968126138203}
   m_Layer: 5
   m_Name: Slot (13)
@@ -5037,21 +4748,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7976649972208455888
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3094094173046435133}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &6894222968126138203
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5077,7 +4773,6 @@ GameObject:
   - component: {fileID: 6426902852707813466}
   - component: {fileID: 8738851870158579201}
   - component: {fileID: 7489938548855837969}
-  - component: {fileID: 1017720344194218990}
   - component: {fileID: 2856333279977735172}
   m_Layer: 5
   m_Name: Slot (8)
@@ -5196,21 +4891,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1017720344194218990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3117355899039552910}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &2856333279977735172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5394,7 +5074,6 @@ GameObject:
   - component: {fileID: 4475338669085816924}
   - component: {fileID: 5604074251076136535}
   - component: {fileID: 1509064007256236130}
-  - component: {fileID: 9164371512673142321}
   - component: {fileID: 7229896288185350726}
   m_Layer: 5
   m_Name: Slot (36)
@@ -5513,21 +5192,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &9164371512673142321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3611926255843412746}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &7229896288185350726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5790,7 +5454,6 @@ GameObject:
   - component: {fileID: 8558574838554409409}
   - component: {fileID: 5043288054229828041}
   - component: {fileID: 830183857650968785}
-  - component: {fileID: 4756036365461605664}
   - component: {fileID: 1600642481034389484}
   m_Layer: 5
   m_Name: Slot (19)
@@ -5909,21 +5572,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4756036365461605664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3833717014921664390}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1600642481034389484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6186,7 +5834,6 @@ GameObject:
   - component: {fileID: 2230131884938648840}
   - component: {fileID: 4861730808518823250}
   - component: {fileID: 7893278591692996011}
-  - component: {fileID: 775931668570655082}
   - component: {fileID: 7704065729589513509}
   m_Layer: 5
   m_Name: Slot (17)
@@ -6305,21 +5952,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &775931668570655082
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4046986286900476140}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &7704065729589513509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6345,7 +5977,6 @@ GameObject:
   - component: {fileID: 1743859230185558484}
   - component: {fileID: 2534065766359019581}
   - component: {fileID: 8217747816680980541}
-  - component: {fileID: 4059897247269861842}
   - component: {fileID: 8110979908257340793}
   m_Layer: 5
   m_Name: Slot
@@ -6464,21 +6095,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4059897247269861842
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4059897247269861840}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &8110979908257340793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6504,7 +6120,6 @@ GameObject:
   - component: {fileID: 6862965292045951572}
   - component: {fileID: 3012352523059939699}
   - component: {fileID: 8474066067964922773}
-  - component: {fileID: 2422700739531414253}
   - component: {fileID: 3065278612153256271}
   m_Layer: 5
   m_Name: Slot (20)
@@ -6623,21 +6238,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2422700739531414253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4264566008648824806}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &3065278612153256271
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6663,7 +6263,6 @@ GameObject:
   - component: {fileID: 7229917912595179481}
   - component: {fileID: 276117090365716238}
   - component: {fileID: 1519619002462535418}
-  - component: {fileID: 6340737617708781426}
   - component: {fileID: 7377915463333997726}
   m_Layer: 5
   m_Name: Slot (39)
@@ -6782,21 +6381,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &6340737617708781426
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4596355351257078107}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &7377915463333997726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6822,7 +6406,6 @@ GameObject:
   - component: {fileID: 2373020322059555351}
   - component: {fileID: 4803381933040897337}
   - component: {fileID: 8799686591874549035}
-  - component: {fileID: 2991491298216619568}
   - component: {fileID: 9146793606530250937}
   m_Layer: 5
   m_Name: Slot (3)
@@ -6952,21 +6535,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2991491298216619568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4693493402284681434}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &9146793606530250937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7071,7 +6639,6 @@ GameObject:
   - component: {fileID: 2048457382812926593}
   - component: {fileID: 4901474813963775758}
   - component: {fileID: 4170886942594480484}
-  - component: {fileID: 1949928071641884815}
   - component: {fileID: 5309116740825261635}
   m_Layer: 5
   m_Name: Slot (14)
@@ -7190,21 +6757,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &1949928071641884815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4710334890569183996}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5309116740825261635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7230,7 +6782,6 @@ GameObject:
   - component: {fileID: 2006468630131421364}
   - component: {fileID: 1499792361998598704}
   - component: {fileID: 2666440795518429890}
-  - component: {fileID: 4148927880678662700}
   - component: {fileID: 4896003305971663319}
   m_Layer: 5
   m_Name: Slot (16)
@@ -7349,21 +6900,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4148927880678662700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4900352742251496892}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &4896003305971663319
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7389,7 +6925,6 @@ GameObject:
   - component: {fileID: 1200230504464788932}
   - component: {fileID: 8493547884617369504}
   - component: {fileID: 3567407907971246446}
-  - component: {fileID: 8033885824558681183}
   - component: {fileID: 3221984485369759216}
   m_Layer: 5
   m_Name: Slot (44)
@@ -7508,21 +7043,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8033885824558681183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4926402059007623512}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &3221984485369759216
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7548,7 +7068,6 @@ GameObject:
   - component: {fileID: 8087725172683485990}
   - component: {fileID: 1748194199219697456}
   - component: {fileID: 4052518979247256872}
-  - component: {fileID: 6190588222419686474}
   - component: {fileID: 4602749604962800704}
   m_Layer: 5
   m_Name: Slot (25)
@@ -7667,21 +7186,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &6190588222419686474
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4992441986455263553}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &4602749604962800704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7707,7 +7211,6 @@ GameObject:
   - component: {fileID: 1121210101044946740}
   - component: {fileID: 1335500353092422185}
   - component: {fileID: 4194213673293980648}
-  - component: {fileID: 8875129596250631382}
   - component: {fileID: 8395715717374617325}
   m_Layer: 5
   m_Name: Slot (46)
@@ -7826,21 +7329,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8875129596250631382
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5029616743802684082}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &8395715717374617325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8028,7 +7516,6 @@ GameObject:
   - component: {fileID: 1486309462752575344}
   - component: {fileID: 467642533366817215}
   - component: {fileID: 2085864283238471378}
-  - component: {fileID: 5276505858539607582}
   - component: {fileID: 5056447060571630046}
   m_Layer: 5
   m_Name: Slot (37)
@@ -8147,21 +7634,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5276505858539607582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5178143385886672349}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5056447060571630046
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8266,7 +7738,6 @@ GameObject:
   - component: {fileID: 7679930958306114646}
   - component: {fileID: 1569278392102029129}
   - component: {fileID: 6120088615395431468}
-  - component: {fileID: 2807698862048174821}
   - component: {fileID: 2236704545027360471}
   m_Layer: 5
   m_Name: Slot (11)
@@ -8385,21 +7856,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2807698862048174821
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5553466590146385510}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &2236704545027360471
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8677,7 +8133,6 @@ GameObject:
   - component: {fileID: 5950509283939926780}
   - component: {fileID: 7900844015386075558}
   - component: {fileID: 8294403956528183374}
-  - component: {fileID: 3092135947658079016}
   - component: {fileID: 6626538649939543155}
   m_Layer: 5
   m_Name: Slot (40)
@@ -8796,21 +8251,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3092135947658079016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5857179766322452668}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &6626538649939543155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8994,7 +8434,6 @@ GameObject:
   - component: {fileID: 9165614554190107493}
   - component: {fileID: 2901957386366586655}
   - component: {fileID: 8540826848126227594}
-  - component: {fileID: 7276454854987581908}
   - component: {fileID: 2998509883768329191}
   m_Layer: 5
   m_Name: Slot (18)
@@ -9113,21 +8552,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7276454854987581908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6542982666324021291}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &2998509883768329191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9153,7 +8577,6 @@ GameObject:
   - component: {fileID: 5331200514420429121}
   - component: {fileID: 3746971247994866663}
   - component: {fileID: 4924382934465175330}
-  - component: {fileID: 8514730293041517063}
   - component: {fileID: 6429763697402768334}
   m_Layer: 5
   m_Name: Slot (29)
@@ -9272,21 +8695,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8514730293041517063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6630705824515630966}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &6429763697402768334
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9470,7 +8878,6 @@ GameObject:
   - component: {fileID: 8325441043131557341}
   - component: {fileID: 8451498687369946220}
   - component: {fileID: 300797981980313086}
-  - component: {fileID: 8858553403094356631}
   - component: {fileID: 5672464781630185526}
   m_Layer: 5
   m_Name: Slot (15)
@@ -9589,21 +8996,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8858553403094356631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6860250916496787287}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5672464781630185526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10263,7 +9655,6 @@ GameObject:
   - component: {fileID: 1001030582687030081}
   - component: {fileID: 3901419517997921055}
   - component: {fileID: 2612147347030959926}
-  - component: {fileID: 3744440621058438093}
   - component: {fileID: 5291598861920877804}
   m_Layer: 5
   m_Name: Slot (5)
@@ -10382,21 +9773,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3744440621058438093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7841003022866673026}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5291598861920877804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10501,7 +9877,6 @@ GameObject:
   - component: {fileID: 7268982895753807289}
   - component: {fileID: 4005780109108729558}
   - component: {fileID: 4876189128238061548}
-  - component: {fileID: 4811529705919505582}
   - component: {fileID: 9045126002928613702}
   m_Layer: 5
   m_Name: Slot (6)
@@ -10620,21 +9995,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &4811529705919505582
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7984965671435653123}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &9045126002928613702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10899,7 +10259,6 @@ GameObject:
   - component: {fileID: 4200344375792710115}
   - component: {fileID: 3152103648021112325}
   - component: {fileID: 6147803541925634527}
-  - component: {fileID: 7390452518558255473}
   - component: {fileID: 1482966399240603137}
   m_Layer: 5
   m_Name: Slot (24)
@@ -11018,21 +10377,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7390452518558255473
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8108263271340556924}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1482966399240603137
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11058,7 +10402,6 @@ GameObject:
   - component: {fileID: 131691578236729208}
   - component: {fileID: 4856748541599517515}
   - component: {fileID: 2217233508286863543}
-  - component: {fileID: 3134600159951365588}
   - component: {fileID: 7001928777089103917}
   m_Layer: 5
   m_Name: Slot (21)
@@ -11177,21 +10520,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &3134600159951365588
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8257274422978338856}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &7001928777089103917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11375,7 +10703,6 @@ GameObject:
   - component: {fileID: 5111172216107400952}
   - component: {fileID: 7687119095309219425}
   - component: {fileID: 8978886029063541392}
-  - component: {fileID: 7685938352157783871}
   - component: {fileID: 4187490612822616327}
   m_Layer: 5
   m_Name: Slot (10)
@@ -11494,21 +10821,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &7685938352157783871
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8596810314535206260}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &4187490612822616327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11534,7 +10846,6 @@ GameObject:
   - component: {fileID: 8314722831871643078}
   - component: {fileID: 7135581985793449760}
   - component: {fileID: 8487589114525396502}
-  - component: {fileID: 5504232118572482369}
   - component: {fileID: 5113761327198670467}
   m_Layer: 5
   m_Name: Slot (4)
@@ -11653,21 +10964,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &5504232118572482369
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8614366929046586004}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &5113761327198670467
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11693,7 +10989,6 @@ GameObject:
   - component: {fileID: 5429022421903224659}
   - component: {fileID: 607516337920328939}
   - component: {fileID: 704627073500030539}
-  - component: {fileID: 8440909014789094357}
   - component: {fileID: 6639989550648273761}
   m_Layer: 5
   m_Name: Slot (35)
@@ -11812,21 +11107,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &8440909014789094357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8616645372636461755}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &6639989550648273761
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11852,7 +11132,6 @@ GameObject:
   - component: {fileID: 5937417945244803526}
   - component: {fileID: 7906034326964778465}
   - component: {fileID: 7336073981302678404}
-  - component: {fileID: 2841701170108563865}
   - component: {fileID: 1206318323203907983}
   m_Layer: 5
   m_Name: Slot (30)
@@ -11971,21 +11250,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2841701170108563865
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8665012016746132432}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &1206318323203907983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12090,7 +11354,6 @@ GameObject:
   - component: {fileID: 5779626946575280725}
   - component: {fileID: 7496856661075771087}
   - component: {fileID: 4422006909998738855}
-  - component: {fileID: 2415117630610210057}
   - component: {fileID: 2459132508822320906}
   m_Layer: 5
   m_Name: Slot (38)
@@ -12209,21 +11472,6 @@ MonoBehaviour:
         m_CallState: 1
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!114 &2415117630610210057
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8869600859571968181}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -900027084, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_EffectColor: {r: 0.745283, g: 0, b: 0, a: 1}
-  m_EffectDistance: {x: 5, y: 5}
-  m_UseGraphicAlpha: 1
 --- !u!114 &2459132508822320906
 MonoBehaviour:
   m_ObjectHideFlags: 0

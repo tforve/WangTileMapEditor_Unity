@@ -11,7 +11,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="Grid.cs" t="Include" />
-          <e p="SlotControll.cs" t="Include" />
+          <e p="LoadLevel.cs" t="Include" />
           <e p="SlotScript.cs" t="Include" />
           <e p="Tile.cs" t="Include" />
           <e p="WangLogic.cs" t="Include" />
