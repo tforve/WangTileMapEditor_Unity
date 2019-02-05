@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
@@ -23,7 +21,6 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         get { return index; }
         set { index = value; }
     }
-
     //---------------------- Properties END -------------------
     
     void Awake()
@@ -42,9 +39,10 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         image.sprite = wangLogic.GetSprite(MyIndex);
         text.text = "" + index;
 
-        //Update all neightbours of Tile 
+        //Update all neightbours of Tile
+       // grid.UpdateMap();
     }
-
+    
     public void OnPointerEnter(PointerEventData eventData)
     {
         //Highlight by Change Cholor of image

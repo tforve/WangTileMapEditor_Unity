@@ -1,7 +1,6 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Grid : MonoBehaviour
 {
@@ -11,19 +10,20 @@ public class Grid : MonoBehaviour
 
     [SerializeField] private Vector2 size;                  // Number of Tiles in X and Y direction. Should be later changeable for user
     private float tileSize = 64.0f;                         // Fix number from Sprite resolution indexSize * 2 +1. could be variable and get size from sprite himself maybe
+    private Vector3 offset;
 
     // ----- Tile related
-    [SerializeField]
-    private Tile tile;
+    [SerializeField] private Tile tile;
+    private Tile[,] tileArray;                              //Array of Tiles
 
-    //Array of Tiles for weight
-    private Tile[,] tileArray;
+
 
     //---------------------- Header END ----------------------
 
     void Start()
     {
         rt = this.GetComponent<RectTransform>();
+        offset = new Vector3(tileSize,tileSize,0.0f);
         GenerateGrid();
     }
 
@@ -40,8 +40,6 @@ public class Grid : MonoBehaviour
         //for Debuging purpose only right now
         size.x = MAX_X;
         size.y = MAX_Y;
-
-        Vector3 offset = new Vector3(tileSize,tileSize,0.0f);
 
         //Forloop to instantiate Tiles
         for (int x = 0; x < MAX_X; x++)
@@ -62,26 +60,14 @@ public class Grid : MonoBehaviour
         return tileArray[x, y];
     }
 
+    /// <summary> Activate Index.Text to show Weight of Tile </summary>
     public void ShowOrHideIndex()
     {
-        // for (var i = 0; i < tileArray.GetLength(0); i++)
-        // {
-        //     for (var j = 0; j < tileArray.GetLength(1); j++)
-        //     {
-        //         Text tmp = GetComponentInChildren<Text>();
-        //         tmp.enabled = true;
-        //         tmp.text = "asdas";
-        //         //tmp.SetActive(true);
-        //         //tmp.enabled = tmp.enabled == false ? true : false;
-        //     }
-        // }
-
         foreach (Tile tile in tileArray)
         {
-            Text tmp = GetComponentInChildren<Text>();
-            tmp.enabled = true;
+            Text tmp = tile.GetComponentInChildren<Text>();
+            tmp.enabled = tmp.enabled == false ? true : false;
         }
-
     }
 
     ///<summary> Reset Grid if you want to restart Level OR make new one etc </summary>
@@ -92,6 +78,11 @@ public class Grid : MonoBehaviour
             Destroy(tile);
         }
         GenerateGrid();
+    }
+
+    public void CloseApplication()
+    {
+        SceneManager.LoadScene("WangTileMapeditor");
     }
 
 }

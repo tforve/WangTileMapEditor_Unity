@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class WangLogic : MonoBehaviour
 {
@@ -27,14 +25,18 @@ public class WangLogic : MonoBehaviour
         savedIndex = value;
         firstClick = true;
     }
-
+    /// <summary>
+    /// Calculating correct Tile via checking all Neighbors
+    /// </summary>
+    /// <param name="tile"></param>
+    /// <returns></returns>
     public Sprite CalculateIndex(Tile tile)
     {
         if (!firstClick)
         {
             sum = 0;
 
-            // Checking all direct Neightbor Index if not 0 calculate new Weight in sum and know on wich side it has to be open
+            // Checking all direct Neighbor Index if not 0 calculate new Weight in sum and know on wich side it has to be open
             if (grid.GetTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0)             //NORTH
             {
                 sum += 1;
@@ -52,7 +54,7 @@ public class WangLogic : MonoBehaviour
                 sum += 64;
             }
 
-            // checking all diagonal Neightbors 
+            // checking all diagonal Neighbors 
             if (grid.GetTileArray(tile.xPos, tile.yPos + 1).MyIndex != 0 && grid.GetTileArray(tile.xPos + 1, tile.yPos).MyIndex != 0) //NE
             {
                 if (grid.GetTileArray(tile.xPos + 1, tile.yPos + 1).MyIndex != 0)
@@ -66,12 +68,12 @@ public class WangLogic : MonoBehaviour
                 if (grid.GetTileArray(tile.xPos + 1, tile.yPos - 1).MyIndex != 0)        //SE
                 {
                     sum += 8;
-                }
+   }
             }
 
             if (grid.GetTileArray(tile.xPos, tile.yPos - 1).MyIndex != 0 && grid.GetTileArray(tile.xPos - 1, tile.yPos).MyIndex != 0)  //SW
             {
-                if (grid.GetTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0)        //SW
+                if (grid.GetTileArray(tile.xPos - 1, tile.yPos - 1).MyIndex != 0) //SW
                 {
                     sum += 32;
                 }
@@ -87,6 +89,8 @@ public class WangLogic : MonoBehaviour
             if (sum > 255) { sum %= 255; }
             tile.MyIndex = sum;
         }
+        
+        
 
         else //choose first Tile
         {
@@ -94,10 +98,16 @@ public class WangLogic : MonoBehaviour
             sum = savedIndex;
             tile.MyIndex = sum;
         }
+        
         return tileImages[sum];
     }
 
-    ///<summary> Get Sprite via Index </summary>
+
+    /// <summary>
+    /// Get Sprite via Index
+    /// </summary>
+    /// <param name="index"></param>
+    /// <returns></returns>
     public Sprite GetSprite(int index)
     {
         return tileImages[index];
