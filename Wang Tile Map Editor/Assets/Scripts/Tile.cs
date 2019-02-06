@@ -10,7 +10,6 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     [HideInInspector] public int xPos, yPos;
 
     private Text text;
-    private Grid grid;
     [SerializeField] private WangLogic wangLogic;
 
     //---------------------- Header END ----------------------
@@ -27,7 +26,6 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
     {
         image = GetComponent<Image>();
         text = GetComponentInChildren<Text>();
-        grid = GetComponentInParent<Grid>();
         wangLogic = FindObjectOfType<WangLogic>();
     }
 
@@ -38,9 +36,6 @@ public class Tile : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, I
         //place Tile by setting new Image
         image.sprite = wangLogic.GetSprite(MyIndex);
         text.text = "" + index;
-
-        //Update all neightbours of Tile
-       // grid.UpdateMap();
     }
     
     public void OnPointerEnter(PointerEventData eventData)

@@ -1671,11 +1671,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 978113622}
+      objectReference: {fileID: 1470497069}
     - target: {fileID: 590566278613930979, guid: 561740d3eff955c4a88eeeb87965e6de,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: CloseApplication
+      value: ChooseLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 590566278613930979, guid: 561740d3eff955c4a88eeeb87965e6de,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 590566278613930979, guid: 561740d3eff955c4a88eeeb87965e6de,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: WangTileMapeditor
       objectReference: {fileID: 0}
     - target: {fileID: 2830984705518228440, guid: 561740d3eff955c4a88eeeb87965e6de,
         type: 3}
@@ -2580,6 +2590,24 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 978113621}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1470497068 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8356479254600586735, guid: 48e53d5fc7622724fbcf7b35dbda9cea,
+    type: 3}
+  m_PrefabInstance: {fileID: 599696674}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1470497069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470497068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb09189bd5901de41b21e26e1fe1ef59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1707869505
 GameObject:
   m_ObjectHideFlags: 0

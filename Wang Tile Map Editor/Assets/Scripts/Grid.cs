@@ -79,10 +79,4 @@ public class Grid : MonoBehaviour
         }
         GenerateGrid();
     }
-
-    public void CloseApplication()
-    {
-        SceneManager.LoadScene("WangTileMapeditor");
-    }
-
 }

@@ -20,17 +20,19 @@ public class WangLogic : MonoBehaviour
         InitializeDictionary();
     }
 
+    ///<summary> Save Index of first clicked Tile in Tilemenu</summary>
     public void SaveIndex(int value)
     {
         savedIndex = value;
         firstClick = true;
     }
+    
     /// <summary>
     /// Calculating correct Tile via checking all Neighbors
     /// </summary>
-    /// <param name="tile"></param>
+    /// <param name="tile"> center tile that hast to calculate his Index</param>
     /// <returns></returns>
-    public Sprite CalculateIndex(Tile tile)
+    public void CalculateIndex(Tile tile)
     {
         if (!firstClick)
         {
@@ -87,26 +89,23 @@ public class WangLogic : MonoBehaviour
                 }
             }
             if (sum > 255) { sum %= 255; }
-            tile.MyIndex = sum;
         }
         
-        
-
         else //choose first Tile
         {
             firstClick = false;
             sum = savedIndex;
-            tile.MyIndex = sum;
         }
         
-        return tileImages[sum];
+        tile.MyIndex = sum;
+
     }
 
 
     /// <summary>
     /// Get Sprite via Index
     /// </summary>
-    /// <param name="index"></param>
+    /// <param name="index"> Index that is the Key to the Tilesprite in Dictionary</param>
     /// <returns></returns>
     public Sprite GetSprite(int index)
     {
